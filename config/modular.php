@@ -1,11 +1,10 @@
 <?php
-
 return [
     'path' => base_path() . '/app/Modules',
-    'base_namespace' => 'App/Modules',
+    'base_namespace' => 'App\Modules',
     'groupWithoutPrefix' => 'Pub',
 
-    'groupMiddleware' => [
+    'groupMidleware' => [
         'Admin' => [
             'web' => ['auth'],
             'api' => ['auth.api'],
@@ -14,11 +13,11 @@ return [
 
     'modules' => [
         'Admin' => [
-            'User',
+            'User'
         ],
 
         'Pub' => [
-            "Auth"
+            'Auth'
         ],
-    ],
+    ]
 ];

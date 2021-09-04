@@ -14,13 +14,14 @@ class CreateAdminUser extends Seeder
      */
     public function run()
     {
+        //
         DB::table('users')->insert([
             'firstname'=>'admin',
             'lastname'=>'admin',
-            'phone'=>'789546123165',
+            'phone'=>'111111111111',
             'email'=>'admin@admin.com',
             'password'=>bcrypt('admin'),
-            'status'=>'1'
+            'status'=>'1',
         ]);
     }
 }
