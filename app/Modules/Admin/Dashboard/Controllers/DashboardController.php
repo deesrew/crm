@@ -3,7 +3,6 @@
 namespace App\Modules\Admin\Dashboard\Controllers;
 
 use App\Modules\Admin\Dashboard\Classes\Base;
-use App\Modules\Admin\Dashboard\Models\Dashboard;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

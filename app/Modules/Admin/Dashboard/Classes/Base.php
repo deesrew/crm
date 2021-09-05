@@ -11,11 +11,11 @@ class Base extends Controller
     /**
      * @var string
      */
-    private $template;
-    private $user;
-    private $title;
-    private $content;
-    private $vars;
+    protected $template;
+    protected $user;
+    protected $title;
+    protected $content;
+    protected $vars;
 
     public function __construct()
     {
